@@ -9,13 +9,13 @@
 <body>
     <div class="container">
         <div class="logo">
-            <img src="archlelabslatest.png" alt="Logo">
+            <img src="logo.png" alt="Logo">
         </div>
         <div class="content">
-            <form class="notify-form">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
+            <form class="notify-form" action="contact.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
                 <button type="submit">Notify Me</button>
             </form>
             <div class="coming-soon">

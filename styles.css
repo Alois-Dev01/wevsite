@@ -23,12 +23,12 @@ body, html {
 
 .logo {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 40px;
+    right: 40px;
 }
 
 .logo img {
-    width: 200px; /* Adjust as needed */
+    width: 300px; /* Adjust as needed */
 }
 
 .content {
@@ -67,6 +67,7 @@ body, html {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    width: 300px;
 }
 
 .notify-form button:hover {
@@ -79,7 +80,7 @@ body, html {
 }
 
 .coming-soon h1 {
-    font-size: 9em;
+    font-size: 20em;
     margin-bottom: 10px;
 }
 

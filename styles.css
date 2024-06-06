@@ -4,16 +4,22 @@ body, html {
     width: 100%;
     height: 100%;
     font-family: Arial, sans-serif;
-    background: #333;
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url('Web-1920-1.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .container {
-    position: relative;
     text-align: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -23,15 +29,15 @@ body, html {
 }
 
 .logo img {
-    width: 150px; /* Adjust the size as needed */
+    width: 100px; /* Adjust the size as needed */
 }
 
 .content {
     max-width: 600px;
     padding: 20px;
-    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
 }
 
 h1 {
@@ -47,13 +53,17 @@ p {
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 input, textarea {
+    width: 80%;
     margin: 10px 0;
     padding: 10px;
     border: none;
     border-radius: 5px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
 }
 
 input[type="text"], input[type="email"] {
@@ -68,7 +78,7 @@ button {
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background: #555;
+    background: #000;
     color: #fff;
     font-size: 1em;
     cursor: pointer;
@@ -76,5 +86,5 @@ button {
 }
 
 button:hover {
-    background: #777;
+    background: #333;
 }

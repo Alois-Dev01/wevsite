@@ -80,10 +80,11 @@ body, html {
 }
 
 .coming-soon h1 {
-    font-size: 9em;
+    font-size: 6em;
     margin-bottom: 10px;
 }
 
 .coming-soon p {
     font-size: 1.2em;
+    color: #fff;
 }

@@ -48,6 +48,8 @@ body, html {
     padding: 20px;
     border-radius: 10px;
     flex: 1;
+    width: 400x;
+    height: 600px;
 }
 
 .notify-form input, .notify-form textarea {

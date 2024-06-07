@@ -168,10 +168,9 @@ body {
     display: flex;
     justify-content: center; /* Center the social media icons horizontally */
 }
-
 .social-media a {
     margin: 0 10px;
-    color: white; /* Change the color to white */
+    color: #ccc; /* Change the color to light gray */
     font-size: 24px;
 }
 

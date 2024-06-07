@@ -137,11 +137,11 @@ body {
         align-items: center;
     }
     
-    .notify-form {
-        max-width: 100%; /* Make both elements take full width on small screens */
-        margin-bottom: 20px; /* Add margin between elements */
-        display: flex;
-        justify-content: center; /* Center horizontally */
-    }
+.notify-form {
+    max-width: 90%; /* Set maximum width for better centering */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Add padding */
+    box-sizing: border-box; /* Include padding in the width calculation */
+}
 }
 

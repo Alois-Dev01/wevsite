@@ -257,6 +257,22 @@ body {
         margin-bottom: 20px; /* Add margin to separate from footer */
     }
 
+    /* Style the scrollbar */
+    .scrollable-container::-webkit-scrollbar {
+        width: 10px; /* Set the width of the scrollbar */
+    }
+
+    /* Track */
+    .scrollable-container::-webkit-scrollbar-track {
+        background: transparent; /* Transparent track */
+    }
+
+    /* Handle */
+    .scrollable-container::-webkit-scrollbar-thumb {
+        background: #fff; /* Color of the scrollbar handle */
+        border-radius: 10px; /* Rounded corners for the handle */
+    }
+
     .welcome-box, .coming-soon, .notify-form {
         max-width: 90%; /* Set maximum width for each section */
         margin: 10px auto; /* Center each section horizontally */

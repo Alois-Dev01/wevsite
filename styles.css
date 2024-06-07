@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('Web-1920-1.jpg') no-repeat center center/cover;
+    background: url('web-1920-1.jpg') no-repeat center center/cover;
     color: white;
 }
 
@@ -40,12 +40,8 @@ body {
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 10px;
-    backdrop-filter: blur(0px);
-    -webkit-backdrop-filter: blur(0px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     width: 300px; /* Adjust as needed */
 }
 
@@ -55,17 +51,20 @@ body {
     width: 100%;
     border-radius: 5px;
     border: none;
-    backdrop-filter: blur(3px);
-    -webkit-backdrop-filter: blur(10px);
 }
 
 .notify-form input, .notify-form textarea {
     background-color: rgba(255, 255, 255, 0.3);
-
+    color: black;
 }
 
 .notify-form input::placeholder, .notify-form textarea::placeholder {
-    color: #000;
+    color: rgba(255, 255, 255, 0.7);
+    color: black;
+}
+
+.notify-form textarea {
+    height: 100px; /* Increase the height of the textarea */
 }
 
 .notify-form button {
@@ -87,11 +86,11 @@ body {
 }
 
 .coming-soon h1 {
-    font-size: 6em;
+    font-size: 5em;
     margin-bottom: 10px;
 }
 
 .coming-soon p {
     font-size: 1.2em;
-    color: #000;
+    color: black;
 }

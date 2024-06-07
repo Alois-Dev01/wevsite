@@ -11,7 +11,7 @@ body, html {
 
 body {
     display: flex;
-    align-items: flex-start;
+    align-items: center; /* Center vertically */
     justify-content: center;
     background: url('Web-1920-1.jpg') no-repeat center center/cover;
     color: white;
@@ -30,11 +30,11 @@ body {
 
 .content {
     display: flex;
-    justify-content: space-between; /* Adjusted to space between */
-    align-items: flex-start; /* Adjusted to flex start */
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
     max-width: 1200px;
     width: 100%;
-    margin-top: 20px; /* Added margin-top */
+    margin-top: 20px;
 }
 
 .notify-form {
@@ -78,7 +78,7 @@ body {
 .coming-soon {
     max-width: 400px;
     width: 100%;
-    text-align: right;
+    text-align: center;
     padding: 20px;
 }
 
@@ -90,6 +90,22 @@ body {
 .coming-soon p {
     font-size: 1.2em;
     color: #000;
+}
+
+@media (min-width: 768px) {
+    .content {
+        flex-direction: row;
+        justify-content: center; /* Center horizontally for larger screens */
+    }
+
+    .notify-form, .coming-soon {
+        width: 50%;
+        margin: 0 10px; /* Add margin between sections */
+    }
+
+    .coming-soon h1 {
+        font-size: 2.5em;
+    }
 }
 
 @media (max-width: 767px) {

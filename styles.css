@@ -53,6 +53,7 @@ body {
 
 .coming-soon{
     max-width: 45%; /* Set maximum width for both elements */
+    margin-top: 20px; 
 }
 .notify-form {
     max-width: 45%; /* Set maximum width for both elements */

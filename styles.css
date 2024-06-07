@@ -81,13 +81,13 @@ body {
 
 .coming-soon h1 {
     font-size: 5em;
-    color: #000;
+    color:#383838;
     margin-bottom: 10px;
 }
 
 .coming-soon p {
     font-size: 1.2em;
-    color: #000;
+    color: #383838;
 }
 
 .notify-form {
@@ -175,6 +175,7 @@ body {
 
     .coming-soon h1 {
         font-size: 3em;
+        color:  #383838;
         align-items: center;
     }
 

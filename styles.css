@@ -57,7 +57,7 @@ body {
 }
 
 .coming-soon h1 {
-    font-size: 6em;
+    font-size: 5em;
     margin-bottom: 10px;
 }
 
@@ -110,7 +110,14 @@ body {
         flex-direction: column; /* On small screens, arrange content vertically */
     }
 
-    .coming-soon,
+    .coming-soon{
+        max-width: 100%; /* Make both elements take full width on small screens */
+        margin-bottom: 20px; /* Add margin between elements */
+    }
+    .coming-soon h1 {
+    font-size: 3em;
+    }
+    
     .notify-form {
         max-width: 100%; /* Make both elements take full width on small screens */
         margin-bottom: 20px; /* Add margin between elements */

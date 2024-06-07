@@ -177,7 +177,7 @@ body {
     .coming-soon {
         margin-top: 10px; /* Reduce margin on small screens */
         max-width: 100%; /* Make both elements take full width on small screens */
-        margin-bottom: 20px; /* Add margin between elements */
+        margin-bottom: 60px; /* Add margin between elements */
         text-align: center;
     }
 

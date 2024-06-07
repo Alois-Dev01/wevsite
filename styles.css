@@ -86,7 +86,7 @@ body {
 .notify-form button {
     margin: 10px 0;
     padding: 10px;
-    width: 100%;
+    width: 80%;
     border-radius: 5px;
     border: none;
     background-color: rgba(255, 255, 255, 0.3);

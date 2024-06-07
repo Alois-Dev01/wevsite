@@ -11,17 +11,26 @@ body, html {
 
 body {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     background: url('Web-1920-1.jpg') no-repeat center center/cover;
     color: white;
-    padding: 20px;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
 }
 
 .container {
     max-width: 1200px;
     width: 100%;
-    position: relative;
+    flex: 1; /* Ensure the container takes up remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
 .header {
@@ -41,23 +50,23 @@ body {
     order: 1; /* Ensure the logo is on the left side */
 }
 
-
 .logo img {
     width: 350px; /* Adjust logo size as needed */
 } 
+
 .content {
     display: flex;
     flex-direction: row; /* On large screens, arrange content horizontally */
     justify-content: space-between; /* Add space between elements */
-    top: 300px;
 }
 
-.coming-soon{
+.coming-soon {
     max-width: 95%; /* Set maximum width for both elements */
     margin-top: 275px; 
     font-family: Tahoma, sans-serif;
     text-align: right;
 }
+
 .notify-form {
     max-width: 45%; /* Set maximum width for both elements */
 }
@@ -119,6 +128,7 @@ body {
     background-color: #fff;
     color: #000;
 }
+
 .footer {
     background-color: #f1f1f1;
     padding: 20px;
@@ -164,7 +174,7 @@ body {
         align-items: center;
     }
     
-.notify-form {
+    .notify-form {
         max-width: 90%;
         width: 100%; /* Ensure full width for better centering */
         margin: 0 auto; /* Center the form horizontally */

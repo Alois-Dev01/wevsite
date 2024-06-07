@@ -169,9 +169,10 @@ body {
     justify-content: center; /* Center the social media icons horizontally */
 }
 .social-media a {
-    margin: 0 10px;
-    color: #ccc; /* Change the color to light gray */
-    font-size: 24px;
+    margin: 0 10px; /* Add margin to the top and bottom, and adjust as needed */
+    margin-right: 20px; /* Add margin to the right side */
+    color: #fff; /* Set the color of the icons */
+    font-size: 24px; /* Adjust the size of the icons */
 }
 
 .social-media a:hover {

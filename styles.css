@@ -81,8 +81,11 @@ body {
 .coming-soon {
     max-width: 400px;
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 20px;
+    bottom: 20px; /* Changed to position it at the bottom */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
 }
 
 .coming-soon h1 {

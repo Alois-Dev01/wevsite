@@ -61,11 +61,11 @@ body {
 
 .notify-form input, .notify-form textarea {
     background-color: rgba(255, 255, 255, 0.3);
-    color: #000;
+
 }
 
 .notify-form input::placeholder, .notify-form textarea::placeholder {
-    color: rgba(255, 255, 255, 0.7);
+    color: #000;
 }
 
 .notify-form button {
@@ -76,7 +76,8 @@ body {
 }
 
 .notify-form button:hover {
-    background-color: #444;
+    background-color: #fff;
+    color: #000;
 }
 
 .coming-soon {

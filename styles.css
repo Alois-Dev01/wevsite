@@ -24,14 +24,17 @@ body {
     position: relative;
 }
 
-.logo {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+.header {
+    background-color: transparent; /* Make the header transparent */
+    color: white;
+    padding: 10px 20px; /* Adjust header padding */
+    display: flex;
+    justify-content: space-between; /* Align logo and other content to opposite ends */
+    align-items: center; /* Align content vertically */
 }
 
 .logo img {
-    width: 200px;
+    width: 100px; /* Adjust logo size as needed */
 }
 
 .content {

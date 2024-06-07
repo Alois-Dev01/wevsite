@@ -249,6 +249,18 @@ body {
         height: 60px;
         width: 100%;
     }
+        /* Scrollable container for mobile view */
+    .scrollable-container {
+        max-height: 60vh; /* Set the maximum height for the scrollable container */
+        overflow-y: auto; /* Enable vertical scrolling */
+        padding: 10px; /* Add padding for better spacing */
+        margin-bottom: 20px; /* Add margin to separate from footer */
+    }
+
+    .welcome-box, .coming-soon, .notify-form {
+        max-width: 90%; /* Set maximum width for each section */
+        margin: 10px auto; /* Center each section horizontally */
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

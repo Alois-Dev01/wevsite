@@ -66,10 +66,28 @@ body {
     flex: 1; /* Allow the content to grow and take available space */
 }
 .welcome-box {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: transparent; /* Completely transparent background */
+    color: black; /* Black text color */
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    overflow-y: auto; /* Enable vertical scrollbar */
+}
+
+/* Style the scrollbar */
+.welcome-box::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Track */
+.welcome-box::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+}
+
+/* Handle */
+.welcome-box::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar handle */
+    border-radius: 10px; /* Rounded corners for the handle */
 }
 
 .coming-soon {
@@ -197,9 +215,8 @@ body {
         margin-bottom: 20px; /* Add margin between elements */
         text-align: center;
     }
-    .welcome-box {
+.welcome-box {
         max-height: 300px;
-        overflow-y: auto;
     }
 
     .coming-soon h1 {

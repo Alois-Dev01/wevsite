@@ -100,11 +100,11 @@ body {
     margin: 10px 0;
     padding: 10px;
     width: 80%;
-    border-radius: 14px;
+    border-radius: 10px;
     border: none;
     background-color: rgba(255, 255, 255, 0.3);
     color: white;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(10px);
 }
 
@@ -154,7 +154,7 @@ body {
 }
 
 .footer-content a:hover {
-    text-decoration: underline;
+    color: #C0C0C0;
 }
 
 .social-media a {

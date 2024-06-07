@@ -27,14 +27,14 @@ body {
 .header {
     position: fixed; /* Fix the header position */
     top: 0; /* Align the header to the top of the page */
-    right: 0; /* Align the header to the left of the page */
+    right: 0; /* Align the header to the right side of the page */
     width: 100%; /* Make the header full-width */
     background-color: transparent; /* Make the header transparent */
     color: white;
     padding: 10px 20px; /* Adjust header padding */
     display: flex;
     justify-content: space-between; /* Align logo and other content to opposite ends */
-    align-items: right; /* Align content vertically */
+    align-items: center; /* Align content vertically */
 }
 
 .logo {

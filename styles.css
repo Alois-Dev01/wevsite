@@ -35,19 +35,19 @@ body {
 
 .header {
     position: fixed;
-    top: 0; /* Ensure the header starts from the top of the page */
+    top: 0;
     right: 0;
     width: 100%;
     background-color: transparent;
     color: white;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center the content horizontally */
     align-items: center;
 }
 
 .logo {
-    order: 1; /* Ensure the logo is on the left side */
+    order: 2;
 }
 
 .logo img {

@@ -25,16 +25,16 @@ body {
 }
 
 .header {
-    position: fixed; /* Fix the header position */
-    top: 0; /* Align the header to the top of the page */
-    right: 60; /* Align the header to the right side of the page */
-    width: 100%; /* Make the header full-width */
-    background-color: transparent; /* Make the header transparent */
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: transparent;
     color: white;
-    padding: 10px 20px; /* Adjust header padding */
+    padding: 10px 20px;
     display: flex;
-    justify-content: space-between; /* Align logo and other content to opposite ends */
-    align-items: center; /* Align content vertically */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
 }
 
 .logo {

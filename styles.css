@@ -33,7 +33,7 @@ body {
     color: white;
     padding: 10px 20px;
     display: flex;
-    justify-content: right; /* Center the content horizontally */
+    justify-content: center; /* Center the content horizontally */
     align-items: right;
 }
 

@@ -76,6 +76,8 @@ body {
     overflow-y: auto; /* Enable vertical scrollbar */
     align-items: center;
     text-align: center;
+    max-width: 80%; /* Reduce the maximum width */
+    margin: 0 auto; /* Center the box horizontally */
 }
 
 /* Style the scrollbar */

@@ -149,7 +149,7 @@ body {
 }
 
 .footer-content a {
-    color: #fff
+    color: #fff;
     text-decoration: none;
 }
 
@@ -193,4 +193,6 @@ body {
     .notify-form button {
         width: 100%; /* Ensure full width inside the form */
     }
+    .notify-form textarea {
+    height: 100px;
 }

@@ -250,20 +250,22 @@ body {
 @media (min-width: 768px) and (max-width: 1024px) {
     .content {
         flex-direction: row; /* Arrange content horizontally */
+        align-items: flex-start; /* Align items at the top */
     }
 
     .welcome-box {
-        max-width: 45%; /* Set maximum width for welcome text */
-        margin-right: 20px; /* Add margin between welcome text and "Coming Soon" */
-        margin-bottom: 20px; /* Add margin between welcome text and contact form */
+        max-width: 100%; /* Take full width */
+        margin-bottom: 20px; /* Add margin between welcome text and "Coming Soon" */
     }
 
     .coming-soon {
-        max-width: 45%; /* Set maximum width for "Coming Soon" */
+        max-width: 100%; /* Take full width */
         margin-bottom: 20px; /* Add margin between "Coming Soon" and contact form */
     }
 
     .notify-form {
         max-width: 45%; /* Set maximum width for contact form */
+        margin-left: auto; /* Push contact form to the right */
     }
 }
+

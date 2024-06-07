@@ -65,7 +65,10 @@ body {
     margin-top: 80px; /* Add space for the fixed header */
     flex: 1; /* Allow the content to grow and take available space */
 }
-
+.welcome-text{
+    color: #000;
+    order:1;
+}
 .coming-soon {
     max-width: 95%; /* Set maximum width for both elements */
     font-family: Tahoma, sans-serif;

@@ -132,10 +132,12 @@ body {
     }
     .coming-soon h1 {
     font-size: 3em;
+    align-items: center;
     }
     
     .notify-form {
         max-width: 100%; /* Make both elements take full width on small screens */
         margin-bottom: 20px; /* Add margin between elements */
+        align-items: center;
     }
 }

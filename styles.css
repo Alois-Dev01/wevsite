@@ -119,6 +119,14 @@ body {
     background-color: #fff;
     color: #000;
 }
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: transparent;
+    color: white;
+    margin-top: 20px;
+}
 
 @media (max-width: 767px) {
     .content {

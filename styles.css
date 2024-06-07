@@ -74,6 +74,8 @@ body {
     border-radius: 10px;
     margin-bottom: 20px;
     overflow-y: auto; /* Enable vertical scrollbar */
+    align-items: center;
+    text-align: center;
 }
 
 /* Style the scrollbar */

@@ -61,7 +61,7 @@ body {
 
 .notify-form input, .notify-form textarea {
     background-color: rgba(255, 255, 255, 0.3);
-    color: white;
+    color: #000;
 }
 
 .notify-form input::placeholder, .notify-form textarea::placeholder {

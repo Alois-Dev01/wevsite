@@ -34,14 +34,14 @@ body {
     padding: 10px 20px; /* Adjust header padding */
     display: flex;
     justify-content: space-between; /* Align logo and other content to opposite ends */
-    align-items: center; /* Align content vertically */
+    align-items: right; /* Align content vertically */
 }
 
 .logo {
     order: 2; /* Ensure the logo is on the right side */
 }
 .logo img {
-    width: 175px; /* Adjust logo size as needed */
+    width: 275px; /* Adjust logo size as needed */
 }
 
 .content {
@@ -53,7 +53,9 @@ body {
 
 .coming-soon{
     max-width: 95%; /* Set maximum width for both elements */
-    margin-top: 300px; 
+    margin-top: 375px; 
+    font-family: Tahoma, sans-serif;
+    text-align: right;
 }
 .notify-form {
     max-width: 45%; /* Set maximum width for both elements */

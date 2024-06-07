@@ -13,18 +13,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url('web-1920-1.jpg') no-repeat center center/cover;
+    background: url('Web-1920-1.jpg') no-repeat center center/cover;
     color: white;
 }
 
 .logo {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 40px;
+    right: 40px;
 }
 
 .logo img {
-    width: 100px; /* Adjust as needed */
+    width: 300px; /* Adjust as needed */
 }
 
 .content {

@@ -255,12 +255,12 @@ body {
     }
 
     .welcome-box {
-        max-width: 100%; /* Take full width */
+        max-width: 45%; /* Take full width */
         margin-bottom: 20px; /* Add margin between welcome text and "Coming Soon" */
     }
 
     .coming-soon {
-        max-width: 100%; /* Take full width */
+        max-width: 45%; /* Take full width */
         margin-bottom: 20px; /* Add margin between "Coming Soon" and contact form */
     }
 

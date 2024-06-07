@@ -125,21 +125,23 @@ body {
         flex-direction: column; /* On small screens, arrange content vertically */
     }
 
-    .coming-soon{
+    .coming-soon {
         margin-top: 10px; /* Reduce margin on small screens */
         max-width: 100%; /* Make both elements take full width on small screens */
         margin-bottom: 20px; /* Add margin between elements */
         text-align: center;
     }
+
     .coming-soon h1 {
-    font-size: 3em;
-    align-items: center;
+        font-size: 3em;
+        align-items: center;
     }
     
     .notify-form {
         max-width: 100%; /* Make both elements take full width on small screens */
         margin-bottom: 20px; /* Add margin between elements */
-        margin: 0 auto;
-        align-items: center;
+        display: flex;
+        justify-content: center; /* Center horizontally */
     }
 }
+

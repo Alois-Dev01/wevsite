@@ -251,6 +251,7 @@ body {
     .content {
         flex-direction: row; /* Arrange content horizontally */
         align-items: flex-start; /* Align items at the top */
+        justify-content: space-between; /* Add space between items */
     }
 
     .welcome-box {

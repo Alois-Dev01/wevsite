@@ -37,8 +37,11 @@ body {
     align-items: center; /* Align content vertically */
 }
 
+.logo {
+    order: 2; /* Ensure the logo is on the right side */
+}
 .logo img {
-    width: 100px; /* Adjust logo size as needed */
+    width: 175px; /* Adjust logo size as needed */
 }
 
 .content {

@@ -9,26 +9,22 @@ body, html {
     font-family: Arial, sans-serif;
 }
 
-.container {
+body {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
-    background: url('Web-1920-1.jpg') no-repeat center center/cover;
-    text-align: center;
+    background: url('background.png') no-repeat center center/cover;
     color: white;
-    position: relative;
 }
 
 .logo {
     position: absolute;
     top: 20px;
-    right: 40px;
+    right: 20px;
 }
 
 .logo img {
-    width: 300px; /* Adjust as needed */
+    width: 100px; /* Adjust as needed */
 }
 
 .content {
@@ -44,50 +40,55 @@ body, html {
     flex-direction: column;
     align-items: center;
     margin-right: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
     border-radius: 10px;
-    flex: 1;
-    width: 350x;
-    height: 450px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 300px; /* Adjust as needed */
 }
 
-.notify-form input, .notify-form textarea {
+.notify-form input, .notify-form textarea, .notify-form button {
     margin: 10px 0;
     padding: 10px;
     width: 100%;
-    max-width: 300px;
     border-radius: 5px;
     border: none;
 }
 
+.notify-form input, .notify-form textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.notify-form input::placeholder, .notify-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
 .notify-form button {
-    padding: 10px 20px;
     background-color: #000;
     color: #fff;
-    border: none;
-    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .notify-form button:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: #444;
 }
 
 .coming-soon {
     margin-left: 20px;
     flex: 1;
+    text-align: left;
 }
 
 .coming-soon h1 {
-    font-size: 6em;
+    font-size: 3em;
     margin-bottom: 10px;
-    text-align: right;
 }
 
 .coming-soon p {
     font-size: 1.2em;
-    color: #000;
 }

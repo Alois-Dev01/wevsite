@@ -71,7 +71,6 @@ body {
 }
 .coming-soon {
     max-width: 95%; /* Set maximum width for both elements */
-    font-family: Tahoma, sans-serif;
     text-align: left;
 }
 
@@ -88,7 +87,7 @@ body {
 }
 
 .coming-soon h1 {
-    font-size: 5em;
+    font-size: 3em;
     color:#383838;
     margin-bottom: 10px;
 }
@@ -192,7 +191,7 @@ body {
     .coming-soon {
         margin-top: 10px; /* Reduce margin on small screens */
         max-width: 100%; /* Make both elements take full width on small screens */
-        margin-bottom: 60px; /* Add margin between elements */
+        margin-bottom: 20px; /* Add margin between elements */
         text-align: center;
     }
 
@@ -209,6 +208,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center; /* Center the content inside the form */
+        margin-bottom: 60px; /* Add margin between elements */
     }
 
     .notify-form input,

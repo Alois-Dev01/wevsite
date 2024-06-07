@@ -77,11 +77,11 @@ body {
 }
 
 .coming-soon {
-    order: 2; /* Ensure "Coming Soon" is on the right side */
+    order: 1; /* Ensure "Coming Soon" is on the right side */
 }
 
 .notify-form {
-    order: 1; /* Ensure contact form is on the left side */
+    order: 2; /* Ensure contact form is on the left side */
 }
 
 .coming-soon h1 {

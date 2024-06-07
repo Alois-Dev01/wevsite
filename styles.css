@@ -69,7 +69,7 @@ body {
 .coming-soon {
     max-width: 95%; /* Set maximum width for both elements */
     font-family: Tahoma, sans-serif;
-    text-align: right;
+    text-align: left;
 }
 
 .notify-form {

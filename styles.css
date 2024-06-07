@@ -192,6 +192,6 @@ body {
         width: 100%; /* Ensure full width inside the form */
     }
     .notify-form textarea {
-    height: 100px;
+    height: 60px;
     width: 100%;
 }

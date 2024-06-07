@@ -65,17 +65,15 @@ body {
     margin-top: 80px; /* Add space for the fixed header */
     flex: 1; /* Allow the content to grow and take available space */
 }
-.welcome-container {
-    max-height: 300px; /* Adjust the maximum height as needed */
+.welcome-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity */
+    padding: 20px;
+    border-radius: 10px;
+    max-height: 300px; /* Adjust max height as needed */
     overflow-y: auto; /* Enable vertical scrolling */
-    border: 1px solid #ccc; /* Add border for visual separation */
-    padding: 10px; /* Add padding for better readability */
-    margin-bottom: 20px; /* Add space between the welcome text and the content */
+    margin-bottom: 20px; /* Add margin between welcome box and coming soon section */
 }
 
-.welcome-text {
-    font-size: 16px; /* Adjust font size as needed */
-}
 
 .coming-soon {
     max-width: 95%; /* Set maximum width for both elements */

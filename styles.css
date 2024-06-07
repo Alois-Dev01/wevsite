@@ -27,7 +27,7 @@ body {
 .header {
     position: fixed; /* Fix the header position */
     top: 0; /* Align the header to the top of the page */
-    left: 0; /* Align the header to the left of the page */
+    right: 0; /* Align the header to the left of the page */
     width: 100%; /* Make the header full-width */
     background-color: transparent; /* Make the header transparent */
     color: white;
@@ -41,7 +41,7 @@ body {
     order: 2; /* Ensure the logo is on the right side */
 }
 .logo img {
-    width: 275px; /* Adjust logo size as needed */
+    width: 300px; /* Adjust logo size as needed */
 }
 
 .content {

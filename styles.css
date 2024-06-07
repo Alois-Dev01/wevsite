@@ -66,14 +66,11 @@ body {
     flex: 1; /* Allow the content to grow and take available space */
 }
 .welcome-box {
-    background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity */
+    background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
-    max-height: 300px; /* Adjust max height as needed */
-    overflow-y: auto; /* Enable vertical scrolling */
-    margin-bottom: 20px; /* Add margin between welcome box and coming soon section */
+    margin-bottom: 20px;
 }
-
 
 .coming-soon {
     max-width: 95%; /* Set maximum width for both elements */
@@ -199,6 +196,10 @@ body {
         max-width: 100%; /* Make both elements take full width on small screens */
         margin-bottom: 20px; /* Add margin between elements */
         text-align: center;
+    }
+    .welcome-box {
+        max-height: 300px;
+        overflow-y: auto;
     }
 
     .coming-soon h1 {

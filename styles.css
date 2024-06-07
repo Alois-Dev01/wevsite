@@ -150,7 +150,6 @@ body {
 
 .footer-content a {
     color: #fff;
-    text-decoration: none;
 }
 
 .footer-content a:hover {
@@ -189,10 +188,10 @@ body {
     }
 
     .notify-form input,
-    .notify-form textarea,
     .notify-form button {
         width: 100%; /* Ensure full width inside the form */
     }
     .notify-form textarea {
     height: 100px;
+    width: 100%;
 }

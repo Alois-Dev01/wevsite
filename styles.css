@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     background: url('Web-1920-1.jpg') no-repeat center center/cover;
     color: white;
+    margin: 0;
 }
 
 .page-wrapper {
@@ -23,46 +24,46 @@ body {
     width: 100%;
 }
 
-.container {
-    max-width: 1200px;
-    width: 100%;
-    flex: 1; /* Ensure the container takes up remaining space */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-}
-
 .header {
     position: fixed;
-    top: 0;
+    top: 0; /* Ensure the header starts from the top of the page */
     right: 0;
     width: 100%;
     background-color: transparent;
     color: white;
     padding: 10px 20px;
     display: flex;
-    justify-content: center; /* Center the content horizontally */
+    justify-content: space-between;
     align-items: center;
+    z-index: 1000; /* Ensure the header is above other elements */
 }
 
 .logo {
-    order: 2;
+    order: 1; /* Ensure the logo is on the left side */
 }
 
 .logo img {
     width: 350px; /* Adjust logo size as needed */
-} 
+}
+
+.container {
+    flex: 1; /* Ensure the container takes up remaining space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 80px; /* Add space to account for the fixed header */
+}
 
 .content {
     display: flex;
     flex-direction: row; /* On large screens, arrange content horizontally */
     justify-content: space-between; /* Add space between elements */
+    width: 100%;
 }
 
 .coming-soon {
     max-width: 95%; /* Set maximum width for both elements */
-    margin-top: 275px; 
     font-family: Tahoma, sans-serif;
     text-align: right;
 }
@@ -130,10 +131,12 @@ body {
 }
 
 .footer {
-    background-color: #000000;
+    background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
-    color: #fff;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-content {
@@ -146,7 +149,7 @@ body {
 }
 
 .footer-content a {
-    color: #fff;
+    color: #333;
     text-decoration: none;
 }
 
@@ -156,7 +159,6 @@ body {
 
 .social-media a {
     margin: 0 10px;
-    color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -175,7 +177,7 @@ body {
         font-size: 3em;
         align-items: center;
     }
-    
+
     .notify-form {
         max-width: 90%;
         width: 100%; /* Ensure full width for better centering */

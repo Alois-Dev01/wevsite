@@ -26,15 +26,15 @@ body {
 
 .header {
     position: fixed;
-    top: 0;
+    top: 10;
     right: 0;
     width: 100%;
     background-color: transparent;
     color: white;
     padding: 10px 20px;
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center;
+    justify-content: right; /* Center the content horizontally */
+    align-items: right;
 }
 
 .logo {
@@ -42,7 +42,7 @@ body {
 }
 
 .logo img {
-    width: 300px; /* Adjust logo size as needed */
+    width: 350px; /* Adjust logo size as needed */
 } 
 .content {
     display: flex;

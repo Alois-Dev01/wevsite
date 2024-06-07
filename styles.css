@@ -81,20 +81,20 @@ body {
 }
 
 /* Style the scrollbar */
-.welcome-box::-webkit-scrollbar {
+/*.welcome-box::-webkit-scrollbar {
     width: 10px; /* Set the width of the scrollbar */
 }
 
 /* Track */
-.welcome-box::-webkit-scrollbar-track {
+/*.welcome-box::-webkit-scrollbar-track {
     background: transparent; /* Transparent track */
 }
 
 /* Handle */
-.welcome-box::-webkit-scrollbar-thumb {
+/*.welcome-box::-webkit-scrollbar-thumb {
     background: #fff; /* Color of the scrollbar handle */
-    border-radius: 10px; /* Rounded corners for the handle */
-}
+  /*  border-radius: 10px; /* Rounded corners for the handle */
+}*/
 
 .coming-soon {
     max-width: 95%; /* Set maximum width for both elements */

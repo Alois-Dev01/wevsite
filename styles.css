@@ -12,10 +12,10 @@ body, html {
 body {
     display: flex;
     flex-direction: column;
-    background: none; /* Remove the previous background */
+    background: none;
     color: white;
     margin: 0;
-    overflow-y: auto; /* Ensure the body can scroll */
+    overflow-y: auto;
 }
 
 .video-background {
@@ -40,9 +40,9 @@ body {
 
 .video-foreground iframe {
     width: 100vw;
-    height: 56.25vw; /* 16:9 ratio */
+    height: 56.25vw;
     min-height: 100vh;
-    min-width: 177.78vh; /* 16:9 ratio */
+    min-width: 177.78vh;
 }
 
 .page-wrapper {
@@ -62,111 +62,48 @@ body {
     color: white;
     padding: 10px 20px;
     display: flex;
-    justify-content: center; /* Center the content horizontally */
+    justify-content: center;
     align-items: center;
-    z-index: 1000; /* Ensure the header stays on top */
-}
-
-.logo {
-    order: 1; /* Ensure the logo is on the left side */
+    z-index: 1000;
 }
 
 .logo img {
-    width: 350px; /* Adjust logo size as needed */
+    width: 350px;
 }
 
 .container {
-    flex: 1; /* Ensure the container takes up remaining space */
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    margin-top: 30px; /* Add space to account for the fixed header */
+    margin-top: 30px;
 }
 
 .content {
     display: flex;
-    flex-direction: column; /* On large screens, arrange content horizontally */
-    justify-content: space-between; /* Add space between elements */
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
     width: 100%;
-    margin-top: 20px; /* Add space for the fixed header */
-    flex: 1; /* Allow the content to grow and take available space */
+    margin-top: 20px;
 }
-.welcome-box {
+
+.welcome-box, .notify-form {
     background-color: rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
-    color: black; /* Black text color */
+    color: black;
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
-    /*overflow-y: auto; /* Enable vertical scrollbar */
-    align-items: center;
-    text-align: center;
-    max-width: 80%; /* Reduce the maximum width */
-    margin: 0 auto; /* Center the box horizontally */
+    max-width: 45%;
+    margin: 0 20px;
 }
 
-/* Style the scrollbar */
-.welcome-box::-webkit-scrollbar {
-    width: 10px; /* Set the width of the scrollbar */
-}
-
-/* Track */
-.welcome-box::-webkit-scrollbar-track {
-    background: transparent; /* Transparent track */
-}
-
-/* Handle */
-.welcome-box::-webkit-scrollbar-thumb {
-    background: #fff; /* Color of the scrollbar handle */
-  /*  border-radius: 10px; /* Rounded corners for the handle */
-}
-
-.coming-soon {
-    max-width: 95%; /* Set maximum width for both elements */
-    text-align: left;
-}
-
-.notify-form {
-    max-width: 45%; /* Set maximum width for both elements */
-}
-.welcome-box {
-    order: 1; /* Ensure "welcome-box" is on the right side */
-}
-
-.coming-soon {
-    order: 1; /* Ensure "Coming Soon" is on the right side */
-}
-
-.notify-form {
-    order: 2; /* Ensure contact form is on the left side */
-}
-
-.welcome-box h1 {
-    font-size: 3em;
-    color:#383838;
-    margin-bottom: 10px;
-}
-.welcome-box h2 {
-    font-size: 1.7em;
-    color:#383838;
-    margin-bottom: 10px;
-}
+.welcome-box h1,
+.welcome-box h2,
 .welcome-box h3 {
-    font-size: 1.5em;
-    color:#383838;
-    margin-bottom: 10px;
-}
-
-.coming-soon p {
-    font-size: 1.2em;
     color: #383838;
-}
-
-.notify-form {
-    padding: 20px;
+    margin-bottom: 10px;
 }
 
 .notify-form input,
@@ -180,7 +117,6 @@ body {
     background-color: rgba(255, 255, 255, 0.3);
     color: white;
     backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
 }
 
 .notify-form input::placeholder,
@@ -210,10 +146,9 @@ body {
     text-align: center;
     position: fixed;
     bottom: 0;
-    left: 0; /* Ensure the footer starts from the left edge */
-    width: 100vw; /* Use viewport width to cover the entire width */
+    left: 0;
+    width: 100vw;
     color: #fff;
-    flex-shrink: 0;
     z-index: 1000;
 }
 
@@ -222,11 +157,9 @@ body {
     margin: 0 auto;
 }
 
-.footer-content p {
-    margin: 5px 0;
-}
-
+.footer-content p,
 .footer-content a {
+    margin: 5px 0;
     color: #fff;
 }
 
@@ -236,115 +169,32 @@ body {
 
 .social-media {
     display: flex;
-    justify-content: center; /* Center the social media icons horizontally */
+    justify-content: center;
 }
+
 .social-media a {
-    margin: 0 10px; /* Add margin to the top and bottom, and adjust as needed */
-    margin-right: 20px; /* Add margin to the right side */
-    color: #fff; /* Set the color of the icons */
-    font-size: 18px; /* Adjust the size of the icons */
+    margin: 0 10px;
+    font-size: 18px;
 }
 
 .social-media a:hover {
-    color: #C0C0C0; /* Change color on hover */
+    color: #C0C0C0;
 }
 
 @media (max-width: 767px) {
     .content {
-        flex-direction: column; /* On small screens, arrange content vertically */
+        flex-direction: column;
         align-items: center;
-        margin-top: 10px; /* Adjust margin for mobile view */
-        margin-bottom: 10px; /* Reduce bottom margin for mobile view */
     }
 
-    .coming-soon {
-        margin-top: 10px; /* Reduce margin on small screens */
-        max-width: 100%; /* Make both elements take full width on small screens */
-        margin-bottom: 10px; /* Add margin between elements */
-        text-align: center;
-    }
-    .welcome-box {
+    .welcome-box,
+    .notify-form {
         max-width: 90%;
+        width: 100%;
         margin: 10px auto;
     }
 
-    .coming-soon h1 {
-        font-size: 3em;
-        color:  #383838;
-        align-items: center;
-    }
-
-    .notify-form {
-        max-width: 90%;
-        width: 100%; /* Ensure full width for better centering */
-        margin: 10px auto 0; /* Center the form horizontally and add top margin */
-        display: flex;
-        flex-direction: column;
-        align-items: center; /* Center the content inside the form */
-        margin-bottom: 60px; /* Add margin between elements */
-    }
-
-    .notify-form input,
-    .notify-form button {
-        width: 100%; /* Ensure full width inside the form */
-    }
     .notify-form textarea {
         height: 60px;
-        width: 100%;
-    }
-        /* Scrollable container for mobile view */
-    .scrollable-container {
-        max-height: 90vh; /* Set the maximum height for the scrollable container */
-        overflow-y: auto; /* Enable vertical scrolling */
-        padding: 10px; /* Add padding for better spacing */
-        margin-bottom: 10px; /* Add margin to separate from footer */
-    }
-
-    /* Style the scrollbar */
-    .scrollable-container::-webkit-scrollbar {
-        width: 10px; /* Set the width of the scrollbar */
-    }
-
-    /* Track */
-    .scrollable-container::-webkit-scrollbar-track {
-        background: transparent; /* Transparent track */
-    }
-
-    /* Handle */
-    .scrollable-container::-webkit-scrollbar-thumb {
-        background-color: rgba(255, 255, 255, 0.3);
-        backdrop-filter: blur(5px); /* Color of the scrollbar handle */
-        border-radius: 10px; /* Rounded corners for the handle */
-    }
-
-    .welcome-box, .coming-soon, .notify-form {
-        max-width: 90%; /* Set maximum width for each section */
-        margin: 10px auto; /* Center each section horizontally */
     }
 }
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .content {
-        flex-direction: row; /* Arrange content horizontally */
-        align-items: flex-start; /* Align items at the top */
-        justify-content: space-between; /* Add space between items */
-    }
-
-    .welcome-box {
-        order: 1;
-        max-width: 45%; /* Take full width */
-        margin-bottom: 20px; /* Add margin between welcome text and "Coming Soon" */
-    }
-
-    .coming-soon {
-        max-width: 45%; /* Take full width */
-        margin-bottom: 20px; /* Add margin between "Coming Soon" and contact form */
-    }
-
-    .notify-form {
-        order: 2;
-        max-width: 45%; /* Set maximum width for contact form */
-        margin-left: auto; /* Push contact form to the right */
-    }
-}
-

@@ -104,9 +104,8 @@ body {
 }
 
 .welcome-box h1{
-    font-size: 20px;
+    font-size: 25px;
         color: #383838;
-    margin-bottom: 10px;
 }
 .welcome-box h2{
     font-size: 15px;
@@ -117,6 +116,7 @@ margin-bottom: 10px;
 .welcome-box h3 {
     font-size: 14px;
     color: #383838;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 .inline {

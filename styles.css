@@ -98,9 +98,10 @@ body {
     backdrop-filter: blur(10px);
     color: black;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     max-width: 45%;
     margin: 0 20px;
+    
 }
 
 .welcome-box h1{

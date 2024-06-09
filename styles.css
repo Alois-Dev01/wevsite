@@ -212,7 +212,7 @@ body {
     .content {
         flex-direction: column; /* On small screens, arrange content vertically */
         align-items: center;
-        margin-top: 30px; /* Adjust margin for mobile view */
+        margin-top: 10px; /* Adjust margin for mobile view */
     }
 
     .coming-soon {

@@ -99,9 +99,19 @@ body {
     margin: 0 20px;
 }
 
-.welcome-box h1,
-.welcome-box h2,
+.welcome-box h1{
+    font-size: 20px;
+        color: #383838;
+    margin-bottom: 10px;
+}
+.welcome-box h2{
+    font-size: 15px;
+     color: #383838;
+margin-bottom: 10px;
+ text-align: center;
+}
 .welcome-box h3 {
+    font-size: 14px;
     color: #383838;
     margin-bottom: 10px;
 }

@@ -139,6 +139,7 @@ margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.3);
     color: white;
     backdrop-filter: blur(20px);
+    align-items: center;
 }
 
 .notify-form input::placeholder,
@@ -216,6 +217,7 @@ margin-bottom: 10px;
         max-width: 90%;
         width: 100%;
         margin: 10px auto;
+        align-items: center;
     }
 
     .notify-form textarea {

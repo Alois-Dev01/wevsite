@@ -269,7 +269,8 @@ body {
 
     /* Handle */
     .scrollable-container::-webkit-scrollbar-thumb {
-        background: #fff; /* Color of the scrollbar handle */
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(5px); /* Color of the scrollbar handle */
         border-radius: 10px; /* Rounded corners for the handle */
     }
 

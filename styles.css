@@ -11,7 +11,7 @@ body, html {
 
 body {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background: url('Web-1920-1.jpg') no-repeat center center/cover fixed;
     color: white;
     margin: 0;
@@ -64,7 +64,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 120px; /* Add space for the fixed header */
+    margin-top: 80px; /* Add space for the fixed header */
     flex: 1; /* Allow the content to grow and take available space */
 }
 .welcome-box {
@@ -255,7 +255,7 @@ body {
     }
         /* Scrollable container for mobile view */
     .scrollable-container {
-        max-height: 60vh; /* Set the maximum height for the scrollable container */
+        max-height: 900vh; /* Set the maximum height for the scrollable container */
         overflow-y: auto; /* Enable vertical scrolling */
         padding: 10px; /* Add padding for better spacing */
         margin-bottom: 20px; /* Add margin to separate from footer */

@@ -216,12 +216,13 @@ body {
         flex-direction: column; /* On small screens, arrange content vertically */
         align-items: center;
         margin-top: 10px; /* Adjust margin for mobile view */
+        margin-bottom: 10px; /* Reduce bottom margin for mobile view */
     }
 
     .coming-soon {
         margin-top: 10px; /* Reduce margin on small screens */
         max-width: 100%; /* Make both elements take full width on small screens */
-        margin-bottom: 20px; /* Add margin between elements */
+        margin-bottom: 10px; /* Add margin between elements */
         text-align: center;
     }
     .welcome-box {
@@ -238,7 +239,7 @@ body {
     .notify-form {
         max-width: 90%;
         width: 100%; /* Ensure full width for better centering */
-        margin: 20px auto 0; /* Center the form horizontally and add top margin */
+        margin: 10px auto 0; /* Center the form horizontally and add top margin */
         display: flex;
         flex-direction: column;
         align-items: center; /* Center the content inside the form */
@@ -255,10 +256,10 @@ body {
     }
         /* Scrollable container for mobile view */
     .scrollable-container {
-        max-height: 900vh; /* Set the maximum height for the scrollable container */
+        max-height: 90vh; /* Set the maximum height for the scrollable container */
         overflow-y: auto; /* Enable vertical scrolling */
         padding: 10px; /* Add padding for better spacing */
-        margin-bottom: 20px; /* Add margin to separate from footer */
+        margin-bottom: 10px; /* Add margin to separate from footer */
     }
 
     /* Style the scrollbar */

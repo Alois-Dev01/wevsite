@@ -91,7 +91,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 80px; /* Add space for the fixed header */
+    margin-top: 20px; /* Add space for the fixed header */
     flex: 1; /* Allow the content to grow and take available space */
 }
 .welcome-box {
@@ -179,8 +179,8 @@ body {
     border: none;
     background-color: rgba(255, 255, 255, 0.3);
     color: white;
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
 }
 
 .notify-form input::placeholder,

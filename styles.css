@@ -201,7 +201,7 @@ body {
     margin: 0 10px; /* Add margin to the top and bottom, and adjust as needed */
     margin-right: 20px; /* Add margin to the right side */
     color: #fff; /* Set the color of the icons */
-    font-size: 24px; /* Adjust the size of the icons */
+    font-size: 18px; /* Adjust the size of the icons */
 }
 
 .social-media a:hover {
@@ -212,7 +212,7 @@ body {
     .content {
         flex-direction: column; /* On small screens, arrange content vertically */
         align-items: center;
-        margin-top: 60px; /* Adjust margin for mobile view */
+        margin-top: 30px; /* Adjust margin for mobile view */
     }
 
     .coming-soon {
@@ -223,6 +223,7 @@ body {
     }
     .welcome-box {
         max-height: 300px;
+        margin-bottom: 20px;
     }
 
     .coming-soon h1 {

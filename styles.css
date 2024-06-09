@@ -11,7 +11,7 @@ body, html {
 
 body {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background: url('Web-1920-1.jpg') no-repeat center center/cover fixed;
     color: white;
     margin: 0;
@@ -103,6 +103,9 @@ body {
 
 .notify-form {
     max-width: 45%; /* Set maximum width for both elements */
+}
+.welcome-box {
+    order: 1; /* Ensure "welcome-box" is on the right side */
 }
 
 .coming-soon {

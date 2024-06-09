@@ -119,6 +119,14 @@ margin-bottom: 10px;
     color: #383838;
     margin-bottom: 10px;
 }
+.inline {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inline + .inline {
+    font-size: 1em; /* Adjust font size for the span to match the p font */
+}
 
 .notify-form input,
 .notify-form textarea,
